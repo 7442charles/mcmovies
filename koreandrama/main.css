@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(126, 112, 112);
+}
+#jumbo{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: silver;
+    text-align: center;
+    color: rgb(6, 6, 245);
+    font-size: 80px;
+}
+.image{
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+}
+#head{
+    font-size: 25px;
+    color: rgb(255, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+.image:hover, #head:hover{
+    box-shadow: 0px 10px 50px rgb(0, 255, 0);
+}
+.table{
+    background-color: rgb(92, 91, 91);
+}
+.button{
+    font-size: 25px;
+    font-weight: bold;
+}

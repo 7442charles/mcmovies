@@ -1,0 +1,162 @@
+.jumbotron {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: auto 0px;
+  align-content: center;
+  background-color: snow;
+  background-size: cover;
+  background-position: center;
+}
+.jumbotron span {
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #fff;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	display: block;
+}
+.jumbotron h2 {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 35px;
+}
+.jumbotron p {
+	margin-bottom: 40px;
+}
+.jumbotron a{
+  color: blue;
+}
+hr{
+    background-color: gray;
+}
+.btn btn-primary{
+    border-radius: 10px;
+}
+.btn btn-info1{
+  border-radius: 10px;
+  width: 40px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.col-sm-4{
+    border: 1px solid #ccc;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color:snow;
+  }
+  
+  a, a:hover {
+    color: #000000;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  figure img {
+    width: 100%;
+    height: auto;
+  }
+  
+  figure {
+    margin-bottom: 30px;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  div > h1, .site-name {
+    font-size: 2.5rem;
+  }
+  
+  nav > p {
+    cursor: pointer;
+  }
+
+  
+  .btn-primary {
+    color: #2e6da4;
+    background-color: #FFFFFF;
+  }
+  
+  .col-sm-1 img {
+    min-width: 32px;
+    min-height: 33px;
+  }
+  
+  
+  .navbar, .navbar-default {
+    /*margin: 0;*/
+    margin-top: 0%;
+    background-color: gray;
+    color: green;
+    border: none;
+    width: 100%;
+  }
+  
+  .btn-default,
+  .btn-default:hover,
+  .btn-default:active {
+    border: none;
+    background: #FFFFFF;
+  }
+  
+  
+
+  .btn-class{
+    display: flex;
+    flex-direction: row;
+  }
+  #class-btn1{
+    align-content: flex-start;
+  }
+  #class-btn2{
+    align-content: flex-end;
+  }
+  .img-rounded:hover, .mySlides{
+    box-shadow:0px 10px 50px blue;
+  }
+
+  
+ .itemName{
+     font-weight: bold;
+ }
+ .col-sm-4{
+    border: 1px solid #ccc;
+  }
+  .mySlides {
+    display:none;
+    height: 300px;
+    width: 350px;
+    border-radius: 10px;
+    border-color: seagreen;
+  }
+  .col-right { 
+    float: right; 
+    display: inline; width: 435px; 
+    padding: 20px 20px 5px 0; 
+  }
+  .left, .alignleft {
+     float:left;
+     display:inline;
+   }
+  .right, .alignright { 
+    float:right;
+     display:inline;
+   }
+   .footer1{
+     background-color: black;
+     color: white;
+   }
