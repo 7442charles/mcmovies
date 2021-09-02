@@ -139,8 +139,10 @@ hr{
   .mySlides {
     display:none;
     height: 300px;
-    width: 350px;
-    border-radius: 10px;
+    /*width: 350px;*/
+    margin-left: 2%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
     border-color: seagreen;
   }
   .col-right { 
@@ -153,10 +155,27 @@ hr{
      display:inline;
    }
   .right, .alignright { 
+    margin-right: auto;
     float:right;
-     display:inline;
+    display:inline;
    }
    .footer1{
      background-color: black;
      color: white;
    }
+   
+.search1{
+  border: #2e6da4;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.search2{
+  background-color: forestgreen;
+  border: #2e6da4;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.search{
+  text-decoration: darkblue;
+}
+
